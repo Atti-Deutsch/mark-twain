@@ -4,7 +4,7 @@
     margin: 30px 8px;
     padding: 15px;
     border-radius: 10px;
-    background: rgb(241, 233, 233);
+    background: rgb(238, 229, 229);
 }
 
 main {
@@ -13,23 +13,62 @@ main {
 
 body {
     font-family: 'Ubuntu', sans-serif;;
-    font-size: 1.6rem;
-    line-height: 1.5;
+    font-size: 1rem;
+    line-height: 1.25;
     text-align: center;
     color: rgb(98, 98, 99);
 }
 
-#h1 {
-    font-size: 2em;
+#img-div {
+    background: rgba(224, 191, 191, 0.5);
+    padding: 2em;
+    margin: 2em;
+}
+
+#img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    height: auto;
+    padding: 1em;
+    margin: 0;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 110px;
+    margin-inline-end: 110px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 2rem;
     font-weight: bold;
 }
 
-#h3 {
-    font-size: 1.2em;
+h3 {
+    font-size: 1.5rem;
     font-weight: bold;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px;
 }
 
 ul li::marker {
   color:rgb(98, 98, 99);
-  font-size: 1.2em;
+  font-size: 1em;
 }
